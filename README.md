@@ -1,24 +1,33 @@
-# README
+Rails + React + TypeScript + esbuild. Use it for interview or your application.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby 3.2.7
 
-Things you may want to cover:
+Rails 8.0.2
 
-* Ruby version
+Has been tested on Windows WSL and Mac.
 
-* System dependencies
+## Setup
 
-* Configuration
+```
+bundle install
+yarn install
+rails s
+```
 
-* Database creation
+## TypeScript watch mode
 
-* Database initialization
+```
+yarn build --watch
+```
 
-* How to run the test suite
+## Tests
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+rspec
+```
 
-* Deployment instructions
+## Rubocop
 
-* ...
+```
+rubocop --autocorrect-all
+```
