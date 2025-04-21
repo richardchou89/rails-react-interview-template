@@ -1,4 +1,4 @@
-## Rails React Interview Template
+# Rails and React Interview Template
 
 Rails + React + TypeScript + esbuild. Use it for interview or your SAAS application.
 
