@@ -1,7 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
-import App from "../todos/App";
+import TodosMain from "../todos/TodosMain";
 
-const node = document.getElementById("root") as HTMLElement
-const root = ReactDOM.createRoot(node);
-root.render(<App />);
+type Components = Record<string, React.ElementType>;
+
+const components: Components = {
+  "TodosMain": TodosMain,
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  Object.keys(components).forEach((key) => {
+    const nodes = Array.from(
+      document.getElementsByClassName(`react-${key}`)
+    );
+
+    nodes.forEach((node) => {
+      const data = node.getAttribute("data");
+      const props = data && data.length > 2 ? JSON.parse(data) : {};
+
+      const Component = components[key];
+      const root = ReactDOM.createRoot(node);
+      root.render(<Component {...props} />);
+    });
+  });
+})
