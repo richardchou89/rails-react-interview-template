@@ -1,8 +1,8 @@
-# Rails and React Interview Template
+# Rails and React Integration Template
 
-Rails + React + TypeScript + esbuild. Use it for interview or your SAAS application.
+Rails + React + TypeScript + esbuild. Use it for interview or your SaaS application.
 
-Ruby 3.1+
+Ruby 3.2+
 
 Rails 8.0.2
 
@@ -20,7 +20,7 @@ yarn install
 rails s
 ```
 
-## Yarn watch mode
+## Watch mode
 
 ```
 yarn build --watch
