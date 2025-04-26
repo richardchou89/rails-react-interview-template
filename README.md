@@ -8,12 +8,12 @@ Rails 8.0.2
 
 Tested on Windows WSL and Mac.
 
-## Setup
-Unzip into WSL:
+## Unzipping into WSL
 ```
 Expand-Archive -Path "C:\Users\konam\Downloads\rails-react-interview-template-main.zip" -DestinationPath "\\wsl$\Ubuntu-22.04\home\rchou\workspace\"
 ```
 
+## Setup
 ```
 bundle install
 yarn install
