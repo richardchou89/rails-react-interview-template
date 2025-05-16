@@ -1,12 +1,26 @@
-# Rails and React Integration Template
+# Rails and React Interview Template
 
-Rails + React + TypeScript + esbuild. Use it for interview or your SaaS application.
+You've landed an interview for a Rails developer role. Just three hours before the big moment, you get an email: you're expected to pair program using a Rails + React setup.
 
-Ruby 3.2+
+Suddenly, you're scrambling - installing Rails, React, and all the necessary gems - only to run into integration issues.
 
-Rails 8.0.2
+Skip the stress. This template comes pre-configured with Rails, TypeScript, and React, so you can focus on what really matters: preparing for the interview.
 
-Tested on Windows WSL and Mac.
+Use it in your code challenge, pair programming, or next SaaS idea.
+
+💎 Ruby 3.2+
+
+🛤️ Rails 8.0.2
+
+📜 TypeScript
+
+⚛️ React
+
+📦 esbuild + watch mode
+
+👮 Rubocop
+
+💯 RSpec
 
 ## Unzipping into WSL
 ```
