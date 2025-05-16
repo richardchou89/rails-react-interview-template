@@ -36,6 +36,7 @@ rails s
 
 ## Watch mode
 
+Run this on a separate terminal
 ```
 yarn build --watch
 ```
@@ -51,3 +52,7 @@ rspec
 ```
 rubocop --autocorrect-all
 ```
+
+## Up and running
+
+![image](https://github.com/user-attachments/assets/3ec8eb8b-2fac-4396-933c-b1a39622aeea)
