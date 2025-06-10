@@ -10,7 +10,7 @@ Use it in your code challenge, pair programming, or next SaaS idea.
 
 💎 Ruby 3.2+
 
-🛤️ Rails 8.0.2
+🛤️ Rails 8
 
 📜 TypeScript
 
@@ -56,3 +56,7 @@ rubocop --autocorrect-all
 ## Up and running
 
 ![image](https://github.com/user-attachments/assets/3ec8eb8b-2fac-4396-933c-b1a39622aeea)
+
+## Deploying to Render
+
+I wrote an [article](https://medium.com/@richardchou/deploying-rails-to-render-eee0ed76475a) to show how to deploy this template to Render.
