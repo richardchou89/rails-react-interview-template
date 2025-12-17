@@ -10,13 +10,15 @@ Use it in your code challenge, pair programming, or next SaaS idea.
 
 💎 Ruby 3.2+
 
-🛤️ Rails 8
+🛤️ Rails 8.1
 
 📜 TypeScript
 
 ⚛️ React
 
 📦 esbuild + watch mode
+
+🤚 No third-party gem required
 
 👮 Rubocop
 
